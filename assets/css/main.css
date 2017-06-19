@@ -3522,7 +3522,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #fbb5b5;
+			color: #ffffff;
 			cursor: pointer;
 			display: block;
 			height: 3.25em;
@@ -4334,7 +4334,7 @@
 		}
 
 		#footer ::-webkit-input-placeholder {
-			color: #fbb5b5 !important;
+			color: #ffffff !important;
 		}
 
 		#footer :-moz-placeholder {

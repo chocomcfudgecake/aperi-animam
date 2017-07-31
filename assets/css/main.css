@@ -1619,7 +1619,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-family: "Libre Baskerville", "Palatino", serif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1891,7 +1891,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 		input[type="submit"].icon,
@@ -3626,9 +3626,10 @@
 		}
 
 		#banner h1 {
-			font-size: 7em;
+			font-size: 5em;
 			line-height: 1.1;
-			font-family: "Libre Baskerville";
+			font-family: "Libre Baskerville", serif;
+			letter-spacing: .25em;
 			margin-bottom: .25em;
 			color: rgba(255, 255, 255, 0.75);
 			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
@@ -3775,10 +3776,12 @@
 				background-attachment: scroll;
 				min-height: 0;
 				padding: 8em 2em 4em 2em;
+
 			}
 
 				#banner h1 {
 					font-size: 6em;
+					letter-spacing: 0em;
 				}
 
 		}
@@ -4181,7 +4184,7 @@
 
 	#footer {
 		background-color: #0c0c0c;
-		color: #fdd1d1;
+		color: #ffffff;
 		padding: 6em 0 4em 0;
 		background: #0e0e0e;
 	}
@@ -4430,3 +4433,20 @@
 			}
 
 		}
+
+/*My Additions */
+.contact-info {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center; 
+	align-items: center;
+}
+.info-item {
+	width: 300px;
+	padding: 5px;
+	text-align: center;
+}

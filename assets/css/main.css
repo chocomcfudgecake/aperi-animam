@@ -3627,13 +3627,14 @@
 
 		#banner h1 {
 			font-size: 5em;
-			line-height: 1.1;
+			line-height: 2.0;
 			font-family: "Libre Baskerville", serif;
-			letter-spacing: .25em;
+			letter-spacing: 1em;
 			margin-bottom: .25em;
 			color: rgba(255, 255, 255, 0.75);
 			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
 			text-transform: none;
+
 		}
 
 		#banner p {

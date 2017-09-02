@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Fanwood+Text|Lobster|Open+Sans:300,400,600,700,800");
+
 
 /*
 	Road Trip by TEMPLATED
@@ -1618,7 +1619,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-family: "Libre Baskerville", "Palatino", serif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1890,7 +1891,7 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 		input[type="submit"].icon,
@@ -3338,7 +3339,7 @@
 
 		#header.alt {
 			top: 0;
-			background: #F64747;
+			background: #0e0e0e;
 		}
 
 		#header .logo {
@@ -3467,7 +3468,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #f64242;
+		background: #0e0e0e;
 		box-shadow: none;
 		color: #ffffff;
 		height: 100%;
@@ -3521,7 +3522,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #fbb5b5;
+			color: #ffffff;
 			cursor: pointer;
 			display: block;
 			height: 3.25em;
@@ -3625,13 +3626,15 @@
 		}
 
 		#banner h1 {
-			font-size: 7em;
-			line-height: 1.1;
-			font-family: "Lobster", cursive;
+			font-size: 5em;
+			line-height: 2.0;
+			font-family: "Libre Baskerville", serif;
+			letter-spacing: 1em;
 			margin-bottom: .25em;
 			color: rgba(255, 255, 255, 0.75);
 			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
 			text-transform: none;
+
 		}
 
 		#banner p {
@@ -3774,10 +3777,12 @@
 				background-attachment: scroll;
 				min-height: 0;
 				padding: 8em 2em 4em 2em;
+
 			}
 
 				#banner h1 {
 					font-size: 6em;
+					letter-spacing: 0em;
 				}
 
 		}
@@ -4179,10 +4184,10 @@
 /* Footer */
 
 	#footer {
-		background-color: #F64747;
-		color: #fdd1d1;
+		background-color: #0c0c0c;
+		color: #ffffff;
 		padding: 6em 0 4em 0;
-		background: #F64747;
+		background: #0e0e0e;
 	}
 
 		#footer input, #footer select, #footer textarea {
@@ -4333,7 +4338,7 @@
 		}
 
 		#footer ::-webkit-input-placeholder {
-			color: #fbb5b5 !important;
+			color: #ffffff !important;
 		}
 
 		#footer :-moz-placeholder {
@@ -4429,3 +4434,20 @@
 			}
 
 		}
+
+/*My Additions */
+.contact-info {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: center; 
+	align-items: center;
+}
+.info-item {
+	width: 300px;
+	padding: 5px;
+	text-align: center;
+}
